@@ -1,0 +1,23 @@
+[2026-05-02T05:05:43.193Z] [INFO] Testing Vehicle Scheduling with sample data 
+[2026-05-02T05:05:43.200Z] [INFO] Processing depot {"depotId":1,"hours":60}
+[2026-05-02T05:05:43.202Z] [INFO] Processing depot {"depotId":2,"hours":135}
+[2026-05-02T05:05:43.203Z] [INFO] Processing depot {"depotId":3,"hours":188}
+[2026-05-02T05:05:43.203Z] [INFO] Processing depot {"depotId":4,"hours":97}
+[2026-05-02T05:05:43.205Z] [INFO] Processing depot {"depotId":5,"hours":164}
+[2026-05-02T05:05:43.209Z] [INFO] Vehicle scheduler test completed {"depots":5,"vehicles":20,"totalImpact":453,"allTestsPassed":true}
+[2026-05-02T05:05:47.591Z] [INFO] Testing Priority Inbox with sample data 
+[2026-05-02T05:05:47.593Z] [DEBUG] Notification added to priority inbox {"notificationId":"1","type":"Placement","heapSize":1,"priorityScore":12999}
+[2026-05-02T05:05:47.593Z] [DEBUG] Notification added to priority inbox {"notificationId":"2","type":"Placement","heapSize":2,"priorityScore":12995}
+[2026-05-02T05:05:47.593Z] [DEBUG] Notification added to priority inbox {"notificationId":"3","type":"Result","heapSize":3,"priorityScore":11999.5}
+[2026-05-02T05:05:47.594Z] [DEBUG] Notification added to priority inbox {"notificationId":"4","type":"Result","heapSize":4,"priorityScore":11969.999}
+[2026-05-02T05:05:47.594Z] [DEBUG] Notification added to priority inbox {"notificationId":"5","type":"Event","heapSize":5,"priorityScore":10989.999}
+[2026-05-02T05:05:47.594Z] [DEBUG] Notification added to priority inbox {"notificationId":"6","type":"Placement","heapSize":6,"priorityScore":12997.999}
+[2026-05-02T05:05:47.594Z] [DEBUG] Notification added to priority inbox {"notificationId":"7","type":"Event","heapSize":7,"priorityScore":10939.999}
+[2026-05-02T05:05:47.594Z] [DEBUG] Notification added to priority inbox {"notificationId":"8","type":"Result","heapSize":8,"priorityScore":11996.999}
+[2026-05-02T05:05:47.594Z] [DEBUG] Notification added to priority inbox {"notificationId":"9","type":"Placement","heapSize":9,"priorityScore":12999.899}
+[2026-05-02T05:05:47.595Z] [DEBUG] Notification added to priority inbox {"notificationId":"10","type":"Event","heapSize":10,"priorityScore":10954.998}
+[2026-05-02T05:05:47.595Z] [DEBUG] Notification added to priority inbox {"notificationId":"11","type":"Result","heapSize":10,"priorityScore":11979.998}
+[2026-05-02T05:05:47.595Z] [DEBUG] Notification added to priority inbox {"notificationId":"12","type":"Placement","heapSize":10,"priorityScore":12991.998}
+[2026-05-02T05:05:47.600Z] [INFO] Priority Inbox test completed {"totalNotifications":12,"topNotifications":10,"allTestsPassed":true}
+[2026-05-02T05:44:49.119Z] [INFO] Application started 
+[2026-05-02T05:44:49.125Z] [INFO] Server started {"port":3000}
